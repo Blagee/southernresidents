@@ -41,7 +41,7 @@ var config = {
               center: [-122.66991, 48.23128],
               zoom: 12,
               pitch: 44.00,
-              bearing: -43.27.00
+              bearing: -43.27
           },
             mapAnimation: 'flyTo',
             rotateAnimation: true, // Causes map to rotate slowly. Really nice for showing off things like circuits or, in this case, a looping trail.
