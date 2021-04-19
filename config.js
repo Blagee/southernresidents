@@ -7,7 +7,7 @@ var config = {
     theme: 'dark',
     use3dTerrain: false,
     title: 'The Journeys of Shamu and Lolita',
-    subtitle: 'From Life in a Mansion to Life in a Box',
+    subtitle: '',
     byline: '',
     footer: 'Sources: ',
     chapters: [
@@ -35,7 +35,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Shamu',
-            image: '',
+            image: 'https://steemitimages.com/640x0/https://images.fineartamerica.com/images-medium-large-5/the-original-shamu-orca-sea-world-san-diego-1967-california-views-mr-pat-hathaway-archives.jpg',
             description: "Within a year of Namu's display the park owners set out to get him a mate and captured a juvenile female in Penn Cove. This was the first intentional capture of a killer whale and would mark the beginning of a corporate investment in the business of live orca display.",
             location: {
               center: [-122.66991, 48.23128],
@@ -48,17 +48,17 @@ var config = {
             onChapterEnter: [
               {
                 layer:'penncove',
-                opacity: '1'
+                opacity: 1
               }
             ],
             onChapterExit: [
               {
                 layer:'penncove',
-                opacity: '0'
+                opacity: 0
               },
               {
                 layer:'seatosd',
-                opacity: '1'
+                opacity: 1
               }
             ]
         },
@@ -80,25 +80,25 @@ var config = {
             onChapterEnter: [
               {
                 layer: 'seaworld',
-                opacity: '1'
+                opacity: 1
               },
               {
                 layer: 'sdtank',
-                opacity: '1'
+                opacity: 1
               },
               {
                 layer:'seatosd',
-                opacity: '0'
+                opacity: 0
               }
             ],
             onChapterExit: [
               {
                 layer: 'seaworld',
-                opacity: '0'
+                opacity: 0
               },
               {
                 layer: 'sdtank',
-                opacity: '0'
+                opacity: 0
               }
             ]
         },
@@ -108,32 +108,32 @@ var config = {
             hidden: false,
             title: "",
             image: '',
-            description:"The Southern Resident killer whales are split into 3 pods denoted J, K, and L. During a regular season these pods are usually seen keeping to their own groups, however on occasion they will come together for a great multitude of purposes including breeding, play, and what appears to some as consultation. This great gathering is called a superpod. In the summer of 1970 this phenomenon had occurred in none other than Penn Cove, and to the whales’ dismay captors had prepared what would come to be the largest round up of Orcas this world has ever seen. On August 8th, Namu inc. had effectively corralled nearly the entire population of Southern Resident Killer Whales. They had no way of knowing that this was the case, as this capture in particular helped to drive a government mandated census of the species that would lead to all of the current research being done today.",
-            location:{
-                center: [-123.11753, 49.29807],
-                zoom: 17.14,
-                pitch: 47,
-                bearing: -71.30
+            description:"The Southern Resident killer whales are split into 3 pods denoted J, K, and L. During a regular season these pods are usually seen keeping to their own groups, however on occasion they will come together for a great multitude of purposes including breeding, play, and what appears to some as consultation. This great gathering is called a superpod. In the summer of 1970 this phenomenon had occurred in none other than Penn Cove, and to the whales’ dismay captors had prepared what would come to be the largest round up of Orcas this world has ever seen. On August 8th, Namu inc. had effectively corralled nearly the entire population of Southern Resident Killer Whales. They had no way of knowing that this was the case, as this capture in particular helped to drive a government mandated census of the species that would lead to all of the current research being done today." ,
+              location: {
+              center: [-122.34179, 47.60542],
+              zoom: 16.72,
+              pitch: 49.00,
+              bearing: 92.00
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [
               {
                 layer:'seatosd',
-                opacity: '1'
+                opacity: 1
               },
               {
                 layer:'penncove',
-                opacity: '1'
+                opacity: 1
               }
             ],
             onChapterExit: [
               {
                 layer:'penncove',
-                opacity: '0'
+                opacity: 0
               },
               {
                 layer:'seatosd',
-                opacity: '0'
+                opacity: 0
               }
             ]
         },
@@ -155,25 +155,25 @@ var config = {
             onChapterEnter: [
               {
                 layer:'MIA_tank',
-                opacity: '1'
+                opacity: 1
               },
               {
                 layer:'seatomia',
-                opacity: '1'
+                opacity: 1
               },
               {
                 layer:'seaquarium',
-                opacity: '1'
+                opacity: 1
               }
             ],
             onChapterExit: [
               {
                 layer:'MIA_tank',
-                opacity: '0'
+                opacity: 0
               },
               {
                 layer:'seaquarium',
-                opacity: '0'
+                opacity: 0
               }
             ]
         },
@@ -181,7 +181,7 @@ var config = {
             id: 'perspective',
             alignment: 'left',
             hidden: true,
-            title: '',
+            title: './legend.png',
             image: '',
             description: 'If we look back at Penn cove we can see the size of both of these tanks in comparison to Lolita’s capture sight. There are efforts put in place right now to bring Lolita/Tokitae back to the Salish Sea. https://www.savelolita.org/ Indigenous groups as well as researchers and activists have been in an ongoing legal battle with the Miami Seaquarium to have Lolita retired to a sea pen in the Pacific Northwest.',
             location: {
@@ -194,13 +194,13 @@ var config = {
             onChapterEnter: [
               {
                 layer:'penncove',
-                opacity: '1'
+                opacity: 1
               }
             ],
             onChapterExit: [
               {
                 layer:'penncove',
-                opacity: '0'
+                opacity: 0
               }
             ]
         },
@@ -236,7 +236,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'The Finish Line',
-            image: './sunset.jpg',
+            image: '',
             description: "A ride around the seawall only takes around an hour, but you can easily spend a day enjoying all that Stanley Park has to offer. There's plenty to explore, and many delicious options for a meal after a day out. ",
             location: {
                 center: [-123.14278, 49.30072],
