@@ -110,10 +110,10 @@ var config = {
             image: '',
             description:"The Southern Resident killer whales are split into 3 pods denoted J, K, and L. During a regular season these pods are usually seen keeping to their own groups, however on occasion they will come together for a great multitude of purposes including breeding, play, and what appears to some as consultation. This great gathering is called a superpod. In the summer of 1970 this phenomenon had occurred in none other than Penn Cove, and to the whales’ dismay captors had prepared what would come to be the largest round up of Orcas this world has ever seen. On August 8th, Namu inc. had effectively corralled nearly the entire population of Southern Resident Killer Whales. They had no way of knowing that this was the case, as this capture in particular helped to drive a government mandated census of the species that would lead to all of the current research being done today." ,
               location: {
-              center: [-122.34179, 47.60542],
-              zoom: 16.72,
-              pitch: 49.00,
-              bearing: 92.00
+                center: [-122.66991, 48.23128],
+                zoom: 12,
+                pitch: 44.00,
+                bearing: -43.27
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [
