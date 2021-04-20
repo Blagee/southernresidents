@@ -142,7 +142,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Lolita',
-            image: '',
+            image: 'https://i2-prod.mirror.co.uk/incoming/article22973159.ece/ALTERNATES/s810/0_20130607-USA-INV-D2-316JPG.jpg',
             description: "Today, only one of the 7 whales captured in Penn Cove is still alive. Her name is Lolita (Tokitae). She was sold to the Miami Seaquarium where she has remained for the past 50 years in one of the smallest Killer whale enclosures made since its inception. Her tank is 420 m2 around and only 20 feet deep which is about how long Lolita is herself. Perspective is key in understanding how small this enclosure really is. Sea World San Diego’s current killer whale enclosure is 3640 m2 which is one of the most advanced facilities as they have held killer whales the longest of any marine park globally.",
             location: {
               center: [-80.16507, 25.73270],
@@ -181,16 +181,16 @@ var config = {
             id: 'perspective',
             alignment: 'left',
             hidden: true,
-            title: './legend.png',
-            image: '',
-            description: 'If we look back at Penn cove we can see the size of both of these tanks in comparison to Lolita’s capture sight. There are efforts put in place right now to bring Lolita/Tokitae back to the Salish Sea. https://www.savelolita.org/ Indigenous groups as well as researchers and activists have been in an ongoing legal battle with the Miami Seaquarium to have Lolita retired to a sea pen in the Pacific Northwest.',
+            title: '',
+            image: './legend.png',
+            description: 'If we look back at Penn cove we can see the size of both of these tanks in comparison to Lolita’s capture sight.',
             location: {
                 center: [-122.71077, 48.22681],
                 zoom: 12.36,
                 pitch: 0.00,
                 bearing: 0.00
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             onChapterEnter: [
               {
                 layer:'penncove',
@@ -209,8 +209,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: '',
-            description: "Shamu's enclosure can be see in yellow while Lolita's is in red.",
+            image: './legend.png',
+            description: "Here we can see a more direct comparison of the facilities at SeaWorld and the Miami Seaquarium.",
             location: {
                 center: [-122.663, 48.234],
                 zoom: 15.36,
@@ -233,24 +233,40 @@ var config = {
         },
         {
             id: 'finish',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
-            title: 'The Finish Line',
-            image: '',
-            description: "A ride around the seawall only takes around an hour, but you can easily spend a day enjoying all that Stanley Park has to offer. There's plenty to explore, and many delicious options for a meal after a day out. ",
+            title: '',
+            image: 'https://mynorthwest.com/wp-content/uploads/cms/13/1382/138241-620x370.jpg',
+            description: "There are efforts put in place right now to bring Lolita (Tokitae) back to the Salish Sea. https://www.savelolita.org/ Indigenous groups as well as researchers and activists have been in an ongoing legal battle with the Miami Seaquarium to have Lolita retired to a sea pen in the Pacific Northwest.",
             location: {
-                center: [-123.14278, 49.30072],
-                zoom: 13.86,
-                pitch: 39.50,
-                bearing: 41.60
+              center: [-100.09404, 37.94500] ,
+              zoom: 3.86,
+              pitch: 21.00,
+              bearing: 0.00
             },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
             onChapterEnter: [
               {
-                   layer: 'seawall',
+                   layer: 'penncove',
                    opacity: 1,
-               }
+               },
+               {
+                    layer: 'seatomia',
+                    opacity: 1,
+                },
+                {
+                     layer: 'seatosd',
+                     opacity: 1,
+                 },
+                 {
+                      layer: 'seaworld',
+                      opacity: 1,
+                  },
+                  {
+                       layer: 'seaquarium',
+                       opacity: 1,
+                   },
             ],
             onChapterExit: []
         },
