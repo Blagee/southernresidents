@@ -180,7 +180,7 @@ var config = {
         {
             id: 'perspective',
             alignment: 'left',
-            hidden: true,
+            hidden: false,
             title: '',
             image: './legend.png',
             description: 'If we look back at Penn cove we can see the size of both of these tanks in comparison to Lolita’s capture sight.',
@@ -212,8 +212,8 @@ var config = {
             image: './legend.png',
             description: "Here we can see a more direct comparison of the facilities at SeaWorld and the Miami Seaquarium.",
             location: {
-                center: [-122.663, 48.234],
-                zoom: 15.36,
+                center: [-122.673, 48.234],
+                zoom: 16.50,
                 pitch: 35.00,
                 bearing: 0.00
             },
