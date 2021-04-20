@@ -9,7 +9,7 @@ var config = {
     title: 'The Journeys of Shamu and Lolita',
     subtitle: '',
     byline: '',
-    footer: 'Chapters:',
+    footer: 'Thank you for reading a little bit about our Southern Residents!',
     chapters: [
         {
             id: 'namu',
