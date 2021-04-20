@@ -178,33 +178,6 @@ var config = {
             ]
         },
         {
-            id: 'perspective',
-            alignment: 'left',
-            hidden: false,
-            title: '',
-            image: './legend.png',
-            description: 'If we look back at Penn cove we can see the size of both of these tanks in comparison to Lolita’s capture sight.',
-            location: {
-                center: [-122.71077, 48.22681],
-                zoom: 12.36,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'easeTo',
-            onChapterEnter: [
-              {
-                layer:'penncove',
-                opacity: 1
-              }
-            ],
-            onChapterExit: [
-              {
-                layer:'penncove',
-                opacity: 0
-              }
-            ]
-        },
-        {
             id: 'zoomedperspective',
             alignment: 'left',
             hidden: false,
@@ -227,9 +200,35 @@ var config = {
                {
                     layer: 'sdtank-penn',
                     opacity: 0.7,
-                },
+                }
             ],
             onChapterExit: []
+        },
+        {
+            id: 'perspective',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'If we look back at Penn cove we can see the size of both of these tanks in comparison to Lolita’s capture sight.',
+            location: {
+                center: [-122.71077, 48.22681],
+                zoom: 12.36,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'easeTo',
+            onChapterEnter: [            ],
+            onChapterExit: [
+               {
+                               layer: 'mia-tank-sea',
+                               opacity: 0,
+                           },
+                           {
+                                layer: 'sdtank-penn',
+                                opacity: 0,
+                            }
+      ]
         },
         {
             id: 'finish',
