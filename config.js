@@ -185,7 +185,7 @@ var config = {
             image: './legend.png',
             description: "Returning to Penn Cove, we can see a more direct comparison of the facilities at SeaWorld and the Miami Seaquarium.",
             location: {
-                center: [-122.668, 48.234],
+                center: [-122.665, 48.234],
                 zoom: 16.50,
                 pitch: 35.00,
                 bearing: 0.00
