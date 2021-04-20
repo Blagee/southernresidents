@@ -183,9 +183,9 @@ var config = {
             hidden: false,
             title: '',
             image: './legend.png',
-            description: "Here we can see a more direct comparison of the facilities at SeaWorld and the Miami Seaquarium.",
+            description: "Returning to Penn Cove, we can see a more direct comparison of the facilities at SeaWorld and the Miami Seaquarium.",
             location: {
-                center: [-122.673, 48.234],
+                center: [-122.668, 48.234],
                 zoom: 16.50,
                 pitch: 35.00,
                 bearing: 0.00
@@ -210,7 +210,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'If we look back at Penn cove we can see the size of both of these tanks in comparison to Lolita’s capture sight.',
+            description: 'Looking at the entirety of the cove, we can see the size of both of these tanks in comparison to Lolita’s capture sight.',
             location: {
                 center: [-122.71077, 48.22681],
                 zoom: 12.36,
