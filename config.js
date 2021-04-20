@@ -9,7 +9,7 @@ var config = {
     title: 'The Journeys of Shamu and Lolita',
     subtitle: '',
     byline: '',
-    footer: 'Sources: ',
+    footer: 'Chapters:',
     chapters: [
         {
             id: 'namu',
@@ -154,7 +154,7 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
               {
-                layer:'MIA_tank',
+                layer:'mia-tank',
                 opacity: 1
               },
               {
@@ -168,7 +168,7 @@ var config = {
             ],
             onChapterExit: [
               {
-                layer:'MIA_tank',
+                layer:'mia-tank',
                 opacity: 0
               },
               {
@@ -221,11 +221,11 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
               {
-                   layer: 'mia_tank_sea',
+                   layer: 'mia-tank-sea',
                    opacity: 0.7,
                },
                {
-                    layer: 'sdtank_penn',
+                    layer: 'sdtank-penn',
                     opacity: 0.7,
                 },
             ],
